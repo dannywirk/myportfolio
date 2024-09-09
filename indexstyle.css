@@ -1,0 +1,161 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    background-color: #010101;
+    width: 40%;
+    border-radius: 30px;
+    justify-content: flex-end;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    color: white;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    color: #586e89;
+}
+.top{
+    justify-content: center;
+}
+h2{
+    color: #36313e;
+    font-weight: 900;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+}
+.myimagewrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 90px;
+    flex-grow: 1;
+}   
+section .myimagewrapper img{
+    width: 60%;
+    height: 600px;
+    border-radius: 5%;
+    margin-left: 40px;
+}
+h3{
+    font-size: 120px;
+    margin-top: -50px;
+}
+#textp{
+    font-size: 40px;
+    margin-top: -100px;
+    font-weight: bold;
+}
+article{
+    margin-top: 90px;
+}
+hr{
+    width: 95%;
+}
+#about{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+#skills{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+#contact{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+#aboutme{
+    font-size: 20px;
+    width: 95%;
+    line-height: 25px; 
+    text-align: center;
+    font-weight: bod;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.span1{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.span1 span{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 5%;
+}
+div #form label{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type=text] {
+    width: 800px;
+    padding: 5px 20px;
+    margin: px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+textarea{
+    width: 800px;
+    height: 90px;
+    border-radius: 10px;
+    border-width: 2px;
+}
+input[type=submit]{
+    width: 9%;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 17px;
+    background-color: #010101;
+}
+input[type=submit]:hover{
+    color: aliceblue;
+    background-color: #242121;
+}
+.contact{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-top: 40px;
+}
+#links{
+   background-color: #f1f1f1;
+   border-radius: 10px;
+   
+}
+#links img{
+    padding: 23px;
+    width: 20px;
+    height: 20px;
+}
+footer{
+    margin-top: 40px;
+    background-color: #010101;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+footer label{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+}
